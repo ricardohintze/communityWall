@@ -56,7 +56,7 @@ p {
   display: block;
 }
 label{
-  color: var(--c-info);
+  color: var(--c-gray5);
   font-size: .75rem;
 }
 h4, h5, h6 {
@@ -890,8 +890,16 @@ html[buildfire] .modal .modal-dialog {
 .flex-left-auto {
   margin-left: auto;
 }
+.flex-auto{
+  flex: auto;
+}
 
 bf-image-list box img{
   width: 4rem;
   height: 4rem;
+}
+
+tags-input .tags .input:active,
+tags-input .tags .input:focus{
+  border: 0;
 }
